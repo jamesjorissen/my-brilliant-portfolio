@@ -42,3 +42,7 @@ Must contain your personalized information. (bio, name, images, links to social 
 
 
 Must properly utilize Bootstrap components and grid system.
+
+Here is a link to the deployed application: https://jamesjorissen.github.io/my-brilliant-portfolio/index.html
+
+

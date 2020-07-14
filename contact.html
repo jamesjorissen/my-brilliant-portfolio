@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>James' Portfolio</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"
+        integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+        <head>
+            <style>
+            input[type=text], select, textarea {
+                width: 100%;
+                padding: 12px;  
+                border: 1px solid red; 
+                border-radius: 10px; 
+                box-sizing: border-box;
+                margin-top: 10px; 
+                margin-bottom: 20px; 
+                resize: vertical 
+              }
+              
+              
+              input[type=submit] {
+                background-color: red;
+                color: turquoise;
+                padding: 12px 20px;
+                border: none;
+                border-radius: 4px;
+                cursor: pointer;
+              }
+              
+              
+              input[type=submit]:hover {
+                background-color: black;
+              }
+              
+        
+              .container {
+                border-radius: 5px;
+                background-color: red;
+                padding: 20px;
+              }
+              </style>
+              </head>   
+    </head>
+<body>
+    <header>
+        <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+            <a class="navbar-brand" href="#">James Jorissen</a>
+            <button class="navbar-toggler" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>        
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+              <ul class="navbar-nav mr-auto"
+              <div class="float-right"></div><br>>
+                <li class="nav-item">
+                  <a class="nav-link" href="index.html">About <span class="sr-only">(current)</span></a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="portfolio.html">Portfolio</a>
+                </li>
+                  </a>
+                <li class="nav-item active">
+                  <a class="nav-link disabled" href="contact.html">Contact</a>
+                </li>
+              </ul>
+            </div><br>>
+          </nav>
+    </header>
+    <div class="container-sm">
+        <form action="action_page.php">
+      
+          <label for="name">Name</label>
+          <input type="text" id="name" name="name" placeholder="Your name..">
+      
+          <label for="email">Email</label>
+          <input type="text" id="email" name="email" placeholder="Your email address..">
+      
+          <label for="message">Message</label>
+          <textarea id="message" name="message" placeholder="Write something.." style="height:200px"></textarea>
+          
+          <form method="post" action="mailto:jamesjorissen@gmail.com">
+            <input type="submit" value="Send email"/> 
+            </form>
+        </form>
+      </div>
+
+</body>
+</html>

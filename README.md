@@ -1,7 +1,7 @@
 First, I used the Bootstrap CSS Framework to create a mobile responsive portfolio.
 
 
-I created the following files files: index.html, portfolio.html and contact.html.
+I created the following files: index.html, portfolio.html and contact.html.
 
 
 Using Bootstrap, I developed my portfolio site with the following items:
@@ -45,4 +45,7 @@ Must properly utilize Bootstrap components and grid system.
 
 Here is a link to the deployed application: https://jamesjorissen.github.io/my-brilliant-portfolio/index.html
 
+https://jamesjorissen.github.io/my-brilliant-portfolio/contact.html
+
+https://jamesjorissen.github.io/my-brilliant-portfolio/portfolio.html
 

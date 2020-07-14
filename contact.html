@@ -6,7 +6,6 @@
     <title>James' Portfolio</title>
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"
         integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
-        <head>
             <style>
             input[type=text], select, textarea {
                 width: 100%;
@@ -42,29 +41,35 @@
               }
               </style>
               </head>   
-    </head>
 <body>
     <header>
         <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
             <a class="navbar-brand" href="#">James Jorissen</a>
-            <button class="navbar-toggler" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <button
+              class="navbar-toggler"
+              data-toggle="collapse"
+              data-target="#navbarSupportedContent"
+              aria-controls="navbarSupportedContent"
+              aria-expanded="false"
+              aria-label="Toggle navigation"
+            >
               <span class="navbar-toggler-icon"></span>
-            </button>        
+            </button>
             <div class="collapse navbar-collapse" id="navbarSupportedContent">
-              <ul class="navbar-nav mr-auto"
-              <div class="float-right"></div><br>>
-                <li class="nav-item">
-                  <a class="nav-link" href="index.html">About <span class="sr-only">(current)</span></a>
+              <ul class="navbar-nav mr-auto">
+                <li class="nav-item active">
+                  <a class="nav-link disabled" href="index.html"
+                    >About <span class="sr-only">(current)</span></a
+                  >
                 </li>
                 <li class="nav-item">
                   <a class="nav-link" href="portfolio.html">Portfolio</a>
                 </li>
-                  </a>
-                <li class="nav-item active">
-                  <a class="nav-link disabled" href="contact.html">Contact</a>
+                <li class="nav-item">
+                  <a class="nav-link" href="contact.html">Contact</a>
                 </li>
               </ul>
-            </div><br>>
+            </div>
           </nav>
     </header>
     <div class="container-sm">
@@ -79,10 +84,8 @@
           <label for="message">Message</label>
           <textarea id="message" name="message" placeholder="Write something.." style="height:200px"></textarea>
           
-          <form method="post" action="mailto:jamesjorissen@gmail.com">
-            <input type="submit" value="Send email"/> 
-            </form>
-        </form>
+          <a href = "mailto: jamesjorissen@gmail.com">Send Email</a>
+        
       </div>
 
 </body>
